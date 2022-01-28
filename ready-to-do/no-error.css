@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.4.9 | mapeamento-de-código v0.1.5 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.5.1 | mapeamento-de-código v0.1.6 | CC4.0 License | github.com/iKalamaZoo */
 html {
  line-height:1.15;
  -ms-text-size-adjust:100%;
@@ -1105,6 +1105,16 @@ a:focus {
  .has_site_logo .pkp_head_wrapper {
   width:1160px
  }
+}
+/* AJUSTA O ALINHAMENTO DO RESUMO/ABSTRACT */
+.abstract{
+   text-align: justify;
+   display: inline-grid;
+   color: #000
+}
+/* AJUSTA O ALINHAMENTO DA BIOGRAFIA DO(a) AUTOR(a) */
+.sub_item{
+   text-align: justify;
 }
 .pkp_structure_main {
  padding:.714rem
