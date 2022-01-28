@@ -1171,6 +1171,7 @@ img {
  width:auto;
  height:auto
 }
+/* ALTERA A COR DE FUNDO E OS CANTOS ARREDONDADOS DA CAPA INTERIOR DO PAINEL SUPERIOR */
 .pkp_structure_head {
  background-color:#fe473c;
  border-bottom:1px solid #ddd;
@@ -3655,6 +3656,7 @@ html,
 body {
  background:#ddd
 }
+/* ALTERA A COR DE FUNDO DA PÁGINA, A COR PADRÃO DO TEXTO DA PÁGINA, OS CANTOS ARREDONDADOS DA PÁGINA E O TAMANHO DA PÁGINA */
 .pkp_structure_page {
  margin:0 auto;
  max-width:1160px;
@@ -3797,6 +3799,7 @@ body {
  position:relative;
  padding-top:0
 }
+/* ALTERA A COR DE FUNDO E OS CANTOS ARREDONDADOS DA CAPA EXTERIOR DO PAINEL SUPERIOR */
 .pkp_site_name_wrapper {
  background:#fe473c;
  border-top-left-radius: 25px;
@@ -4238,6 +4241,7 @@ body {
   right:auto;
   left:0
  }
+ /* ALTERA A COR, A ESPESSURA E O POSICIONAMENTO DA BORDA LATERAL POSICIONADA À DIREITA */
  body[dir="rtl"] .pkp_structure_sidebar::before {
   right:auto;
   left:0;
