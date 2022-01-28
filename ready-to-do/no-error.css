@@ -1267,10 +1267,11 @@ img {
  color:rgba(0,0,0,0.84);
  text-decoration:none
 }
+/* ALTERA A COR DO TÍTULO DE BUSCA QUANDO O MOUSE REPOUSA NO OBJETO */
 .pkp_site_nav_menu a:hover,
 .pkp_site_nav_menu a:focus {
  color:rgba(0,0,0,0.84);
- text-decoration:underline
+ text-decoration:none
 }
 .pkp_site_nav_menu #siteNav {
  position:absolute;
@@ -2048,6 +2049,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
     font-size:16px;
     margin-right:0.25em
    }
+   /* ALTERA A COR DA LINHA INFERIOR DO TÍTULO DA BUSCA QUANDO O MOUSE REPOUSA NO OBJETO */
    .pkp_search_desktop .search_prompt:hover,
    .pkp_search_desktop .search_prompt:focus {
     outline:0;
@@ -3392,20 +3394,22 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
   width:100%;
   border-top:1px solid #ddd
  }
+ /* ALTERA A COR DA FONTE DOS TÍTULOS DAS SEÇÕES DO VOLUME */
  .obj_issue_toc .galleys>h2,
  .obj_issue_toc .section>h2,
  .obj_issue_toc .galleys>h3,
  .obj_issue_toc .section>h3 {
   display:inline-block;
   position:relative;
-  left:-15px;
+  left:0px;
   margin-top:0;
-  padding:0 1.0715rem;
+  padding:6px 0.071rem;
   background:#fff;
   font-size:1.143rem;
-  font-weight:400;
+  font-weight:700;
   line-height:2.143rem;
-  color:rgba(0,0,0,0.54)
+  color:rgba(0,0,0,0.54);
+  border-bottom: 3px solid #fe473c;
  }
 }
 @media (min-width:992px) {
