@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.0.0 | CC4.0 License | github.com/iKalamaZoo */html {
+/*! folha-de-estilo.css v1.4.8 | CC4.0 License | github.com/iKalamaZoo */html {
  line-height:1.15;
  -ms-text-size-adjust:100%;
  -webkit-text-size-adjust:100%
@@ -1173,7 +1173,9 @@ img {
 }
 .pkp_structure_head {
  background-color:#fe473c;
- border-bottom:1px solid #ddd
+ border-bottom:1px solid #ddd;
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
 }
 .pkp_head_wrapper {
  position:relative
@@ -3657,7 +3659,9 @@ body {
  margin:0 auto;
  max-width:1160px;
  background:#fff;
- box-shadow:0 0 10px rgba(0,0,0,0.1)
+ box-shadow:0 0 10px rgba(0,0,0,0.1);
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
 }
 @media (min-width:1200px) {
  .pkp_structure_page {
@@ -3794,7 +3798,9 @@ body {
  padding-top:0
 }
 .pkp_site_name_wrapper {
- background:#fe473c
+ background:#fe473c;
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
 }
 .pkp_site_name_wrapper {
  padding-left:2.143rem;
