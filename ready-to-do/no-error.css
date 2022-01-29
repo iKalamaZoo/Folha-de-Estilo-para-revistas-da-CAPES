@@ -2826,6 +2826,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 .obj_announcement_summary .summary p:last-child {
  margin-bottom:0
 }
+/*! ALTERA A COR DO MENU SAIBA MAIS NA NOTÍCIA QUE APARECE EM DESTAQUE NA PÁGINA PRINCIPAL */
 .obj_announcement_summary .read_more {
  display:inline-block;
  position:relative;
@@ -3811,6 +3812,7 @@ body {
 .cmp_announcements .date {
  font-weight:400
 }
+/*! ALTERA A COR ÍCONE DE DO CALENDÁRIO DA DATA DA NOTÍCIA QUE APARECE EM DESTAQUE NA PÁGINA PRINCIPAL*/
 .cmp_announcements .date:before {
  color:#fe473c
 }
