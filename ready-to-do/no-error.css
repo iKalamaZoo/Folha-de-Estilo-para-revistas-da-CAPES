@@ -4265,10 +4265,10 @@ body {
  margin-bottom:0
 }
 /*! ALTERA APENAS AS PROPRIEDADES O ITEM COPYRIGHT NA PÁGINA DE VISUALIZAÇÃO DE CADA ARTIGO */
-.obj_article_details .entry_details .item.copyright {
+/*! .obj_article_details .entry_details .item.copyright { */
 /*! background:transparent; */
 /*! box-shadow:none */
-}
+/*! } */
 @media (min-width:768px) {
  .obj_article_details .entry_details {
   width:240px;
