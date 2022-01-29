@@ -3289,7 +3289,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
  width:auto;
  max-height:250px;
  border-radius: 10px;
- box-shadow: 5px 5px 2px #898e79;
+ box-shadow: 5px 5px 5px 0px #898e79;
 }
 .obj_issue_summary .title {
  font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
@@ -4114,7 +4114,7 @@ body {
  margin-left:auto;
  margin-right:auto;
  border-radius: 10px;
- box-shadow: 5px 5px 2px #898e79
+ box-shadow: 5px 5px 5px 0px #898e79;
 }
 .obj_issue_summary .series {
  font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif
@@ -4243,7 +4243,7 @@ body {
  margin-left:auto;
  margin-right:auto;
  border-radius: 10px;
- box-shadow: 5px 5px 2px #898e79;
+ box-shadow: 5px 5px 5px 0px #898e79;
 }
 .obj_article_details .entry_details .item.galleys {
  box-shadow:none
