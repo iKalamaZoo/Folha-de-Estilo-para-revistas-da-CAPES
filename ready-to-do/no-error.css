@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.5.1 | mapeamento-de-código v0.1.6 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.5.2 | mapeamento-de-código v0.1.7 | CC4.0 License | github.com/iKalamaZoo */
 html {
  line-height:1.15;
  -ms-text-size-adjust:100%;
@@ -49,9 +49,14 @@ b,
 strong {
  font-weight:inherit
 }
+/* AJUSTA A COR DA LINHA INFERIOR DOS SUBTÍTULOS DO MENU SOBRE A REVISTA */
 b,
 strong {
- font-weight:bolder
+ font-weight:bolder;
+ padding-bottom: 0.5em;
+ border-bottom: 3px solid #fe473c;
+ font-weight: 700;
+ text-transform: uppercase
 }
 code,
 kbd,
@@ -1626,8 +1631,10 @@ img {
 .pkp_structure_main p:last-child {
  margin-bottom:0
 }
+/* AJUSTA O ALINHAMENTO DO TÍTULO SOBRE A REVISTA */
 .pkp_structure_main .page h1 {
- margin-top:0
+ margin-top:0;
+ text-align: center;
 }
 .pkp_structure_main .page>.cmp_edit_link {
  float:right;
