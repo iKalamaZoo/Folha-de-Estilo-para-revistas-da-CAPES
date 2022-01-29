@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.5.3 | mapeamento-de-código v0.1.8 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.5.3 | mapeamento-de-código v0.1.9 | CC4.0 License | github.com/iKalamaZoo */
 html {
  line-height:1.15;
  -ms-text-size-adjust:100%;
@@ -1109,7 +1109,7 @@ a:focus {
 /* AJUSTA O ALINHAMENTO DO RESUMO/ABSTRACT */
 .abstract{
    text-align: justify;
-   display: inline-grid;
+   display: inline-block;
    color: #000
 }
 /* AJUSTA O ALINHAMENTO DA BIOGRAFIA DO(a) AUTOR(a) */
@@ -3283,10 +3283,13 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
  display:block;
  margin-bottom:1.43rem
 }
+/* ALTERA A SOMBRA PROJETADA DA IMAGEM DE CAPA DOS VOLUMES NA SEÇÃO EDIÇÕES ANTERIORES */
 .obj_issue_summary .cover img {
  display:block;
  width:auto;
- max-height:250px
+ max-height:250px;
+ border-radius: 10px;
+ box-shadow: 5px 5px 2px #898e79;
 }
 .obj_issue_summary .title {
  font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
