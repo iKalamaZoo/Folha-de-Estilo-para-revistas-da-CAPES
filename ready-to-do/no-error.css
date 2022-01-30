@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.5.3 | mapeamento-de-código v0.2.1 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.5.4 | mapeamento-de-código v0.2.3 | CC4.0 License | github.com/iKalamaZoo */
 html {
  line-height:1.15;
  -ms-text-size-adjust:100%;
@@ -3681,7 +3681,7 @@ html,
 body {
  background:#ddd
 }
-/*! ALTERA A COR DE FUNDO DA PÁGINA, A COR PADRÃO DO TEXTO DA PÁGINA, OS CANTOS ARREDONDADOS DA PÁGINA E O TAMANHO DA PÁGINA */
+/*! ALTERA A COR DE FUNDO, A COR PADRÃO DO TEXTO, OS CANTOS ARREDONDADOS E O TAMANHO DA PÁGINA PRINCIPAL */
 .pkp_structure_page {
  margin:0 auto;
  max-width:1160px;
@@ -3689,6 +3689,8 @@ body {
  box-shadow: 0px 0px 10px rgb(137, 142, 121);
  border-top-left-radius: 25px;
  border-top-right-radius: 25px;
+ border-bottom-left-radius: 15px;
+ border-bottom-right-radius: 15px
 }
 @media (min-width:1200px) {
  .pkp_structure_page {
@@ -3696,10 +3698,13 @@ body {
   margin-bottom:2.143rem
  }
 }
+/*! ALTERA OS CANTOS ARREDONDADOS NO FOOTER COLORIDO DA PÁGINA */
 .pkp_structure_footer_wrapper {
  background:rgba(0,0,0,0.05);
  border-top:1px solid #ddd;
- border-bottom:1.43rem solid #fe473c
+ border-bottom:1.63rem solid #fe473c;
+ border-bottom-right-radius: 15px;
+ border-bottom-left-radius: 15px
 }
 .pkp_structure_main:before,
 .pkp_structure_main:after {
