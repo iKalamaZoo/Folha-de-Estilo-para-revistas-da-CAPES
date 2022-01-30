@@ -390,6 +390,10 @@ template {
  padding:0;
  list-style:none
 }
+/*! CONFIGURA O ÍCONE PARA EXIBIR O DOI NA PÁGINA DOS ARTIGOS */
+.obj_article_details .item.doi .value:before {
+   content: url('https://revistas.uece.br/public/site/images/frederico/doi.png')
+}
 .pkp_caret {
  content:' ';
  display:inline-block;
@@ -4064,6 +4068,10 @@ body {
  color:rgba(240,240,240);
  text-decoration:underline
 }
+/*! CONFIGURA O ÍCONE QUE INDICA O DOI DO VOLUME NA SEÇÃO EDIÇÕES ANTERIORES */
+.obj_issue_toc .heading .pub_id:before {
+   content: url('https://revistas.uece.br/public/site/images/frederico/doi.png');
+  }
 .obj_issue_toc .heading .pub_id,
 .obj_issue_toc .heading .published {
  font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
