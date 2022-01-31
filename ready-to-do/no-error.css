@@ -3295,13 +3295,15 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
  max-height:250px;
  border-radius: 10px;
  box-shadow: 5px 5px 5px 0px #898e79;
+ opacity: 0.6;
 }
-/*! AJUSTA A ANIMAÇAO DA IMAGEM DE CAPA DOS VOLUMES NA SEÇÃO EDIÇÕES ANTERIORES */
+/*! AJUSTA A ANIMAÇÃO DA IMAGEM DE CAPA DOS VOLUMES NA SEÇÃO EDIÇÕES ANTERIORES */
 .obj_issue_summary .cover img {
    transition: 0.5s
  }
 .obj_issue_summary .cover img:hover{
-   transform: translate(-10px, -10px)
+   transform: translate(0px, -10px);
+   opacity: 1.0;
  }
  /*! -- */
 .obj_issue_summary .title {
@@ -4138,13 +4140,15 @@ body {
  margin-right:auto;
  border-radius: 10px;
  box-shadow: 5px 5px 5px 0px #898e79;
+ opacity: 0.6
 }
 /*! ALTERA A ANIMAÇÃO DA IMAGEM DE CAPA DOS VOLUMES NA PÁGINA PRINCIPAL */
 .obj_issue_toc .cover img {
    transition: 0.5s
  }
 .obj_issue_toc .cover img:hover{
-   transform: translate(-10px, -10px)
+   transform: translate(0px, -10px);
+   opacity: 1.0
  }
 /*! -- */
 .obj_issue_summary .series {
@@ -4275,13 +4279,15 @@ body {
  margin-right:auto;
  border-radius: 10px;
  box-shadow: 5px 5px 5px 0px #898e79;
+ opacity: 0.6
 }
 /*! AJUSTA AS CONFIGURAÇÕES DE ANIMAÇÃO DA IMAGEM DE CAPA DOS VOLUMES QUE APARECEM NA PÁGINA DE CADA ARTIGO */
 .obj_article_details .entry_details .cover_image img {
    transition: 0.5s
  }
  .obj_article_details .entry_details .cover_image img:hover{
-   transform: translate(-10px, -10px)
+   transform: translate(0px, -10px);
+   opacity: 1.0
  }
  /*! -- */
 .obj_article_details .entry_details .item.galleys {
