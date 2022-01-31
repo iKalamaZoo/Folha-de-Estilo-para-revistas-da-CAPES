@@ -3295,7 +3295,8 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
  max-height:250px;
  border-radius: 10px;
  box-shadow: 5px 5px 5px 0px #898e79;
- opacity: 0.6;
+ opacity: 0.5;
+ filter: grayscale(100%)
 }
 /*! AJUSTA A ANIMAÇÃO DA IMAGEM DE CAPA DOS VOLUMES NA SEÇÃO EDIÇÕES ANTERIORES */
 .obj_issue_summary .cover img {
@@ -3304,6 +3305,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 .obj_issue_summary .cover img:hover{
    transform: translate(0px, -10px);
    opacity: 1.0;
+   filter: grayscale(0%)
  }
  /*! -- */
 .obj_issue_summary .title {
