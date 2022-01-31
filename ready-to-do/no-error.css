@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.5.9 | mapeamento-de-código v0.2.7 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.6.1 | mapeamento-de-código v0.2.8 | CC4.0 License | github.com/iKalamaZoo */
 html {
  line-height:1.15;
  -ms-text-size-adjust:100%;
@@ -1355,6 +1355,15 @@ img {
  .pkp_site_name .is_img img {
   max-height:80px
  }
+ /*! AJUSTA A ANIMAÇÃO DA IMAGEM PRINCIPAL DO SITE DA REVISTA */
+ .pkp_site_name .is_img img {
+   transition: 0.5s
+ }
+.pkp_site_name .is_img img:hover{
+   opacity: 1.0;
+   filter:invert(100)
+ }
+/*! -- */
  .pkp_site_nav_menu {
   display:block;
   position:static;
