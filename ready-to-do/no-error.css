@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.5.4 | mapeamento-de-código v0.2.3 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.5.7 | mapeamento-de-código v0.2.5 | CC4.0 License | github.com/iKalamaZoo */
 html {
  line-height:1.15;
  -ms-text-size-adjust:100%;
@@ -3296,6 +3296,14 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
  border-radius: 10px;
  box-shadow: 5px 5px 5px 0px #898e79;
 }
+/*! AJUSTA A ANIMAÇAO DA IMAGEM DE CAPA DOS VOLUMES NA SEÇÃO EDIÇÕES ANTERIORES */
+.obj_issue_summary .cover img {
+   transition: 0.5s
+ }
+.obj_issue_summary .cover img:hover{
+   transform: translate(-10px, -10px)
+ }
+ /*! -- */
 .obj_issue_summary .title {
  font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
  font-weight:700;
@@ -4124,13 +4132,21 @@ body {
 .obj_issue_toc .pages {
  font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif
 }
-/*! ALTERA A SOMBRA PROJETADA NA IMAGEM DE CAPA DOS VOLUMES */
+/*! ALTERA A SOMBRA PROJETADA NA IMAGEM DE CAPA DOS VOLUMES NA PÁGINA PRINCIPAL */
 .obj_issue_toc .cover img {
  margin-left:auto;
  margin-right:auto;
  border-radius: 10px;
  box-shadow: 5px 5px 5px 0px #898e79;
 }
+/*! ALTERA A ANIMAÇÃO DA IMAGEM DE CAPA DOS VOLUMES NA PÁGINA PRINCIPAL */
+.obj_issue_toc .cover img {
+   transition: 0.5s
+ }
+.obj_issue_toc .cover img:hover{
+   transform: translate(-10px, -10px)
+ }
+/*! -- */
 .obj_issue_summary .series {
  font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif
 }
@@ -4251,7 +4267,7 @@ body {
  background:transparent;
  box-shadow:none
 }
-/*! ALTERA A SOMBRA PROJETADA DA IMAGEM DE CADA DOS VOLUMES QUE APARECE NA PÁGINA DE CADA ARTIGO */
+/*! ALTERA A SOMBRA PROJETADA DA IMAGEM DE CAPA DOS VOLUMES QUE APARECEM NA PÁGINA DE CADA ARTIGO */
 .obj_article_details .entry_details .cover_image img {
  display:block;
  border-radius:3px;
@@ -4260,6 +4276,14 @@ body {
  border-radius: 10px;
  box-shadow: 5px 5px 5px 0px #898e79;
 }
+/*! AJUSTA AS CONFIGURAÇÕES DE ANIMAÇÃO DA IMAGEM DE CAPA DOS VOLUMES QUE APARECEM NA PÁGINA DE CADA ARTIGO */
+.obj_article_details .entry_details .cover_image img {
+   transition: 0.5s
+ }
+ .obj_article_details .entry_details .cover_image img:hover{
+   transform: translate(-10px, -10px)
+ }
+ /*! -- */
 .obj_article_details .entry_details .item.galleys {
  box-shadow:none
 }
