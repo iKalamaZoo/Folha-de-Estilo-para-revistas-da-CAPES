@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.6.5 | mapeamento-de-código v0.3.2 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.6.7 | mapeamento-de-código v0.3.4 | CC4.0 License | github.com/iKalamaZoo */
 html {
  line-height:1.15;
  -ms-text-size-adjust:100%;
@@ -4382,7 +4382,7 @@ body {
  /*! AJUSTA A ANIMAÇÃO DA IMAGEM DA PRE-VISUALIZAÇÃO DA NOTÍCIA PRINCIPAL DA REVISTA */
  .summary img {
 	animation-duration: 0.75s;
-	animation-delay: 0.5s;
+	animation-delay: 0.9s;
 	--DelayMultiplier: 1; 
    animation-name: animate-slide;
 	animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
@@ -4408,7 +4408,7 @@ body {
 /*! AJUSTA A ANIMAÇÃO DA IMAGEM DE CAPA DOS VOLUMES NA PÁGINA PRINCIPAL */
    .obj_issue_toc .cover img {
       animation-duration: 0.75s;
-      animation-delay: 0.5s;
+      animation-delay: 0.9s;
       --DelayMultiplier: 1; 
       animation-name: animate-fade;
       animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
@@ -4429,7 +4429,7 @@ body {
    /*! AJUSTA A ANIMAÇÃO DA IMAGEM DE CAPA DOS VOLUMES NA PÁGINA DOS ARTIGOS */
    .obj_article_details .entry_details .cover_image img {
       animation-duration: 0.75s;
-      animation-delay: 0.5s;
+      animation-delay: 0.9s;
       --DelayMultiplier: 1; 
       animation-name: animate-fade;
       animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
@@ -4450,7 +4450,28 @@ body {
    /*! AJUSTA A ANIMAÇÃO DA IMAGEM DE CAPA DOS VOLUMES NA SEÇÃO EDIÇÕES ANTERIORES */
    .obj_issue_summary .cover img {
       animation-duration: 0.75s;
-      animation-delay: 0.5s;
+      animation-delay: 0.9s;
+      --DelayMultiplier: 1; 
+      animation-name: animate-fade;
+      animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
+      animation-fill-mode: backwards;
+   }
+   
+   /* Fade In */
+   .animate.fade {
+      animation-name: animate-fade;
+      animation-timing-function: ease;
+   }
+   
+   @keyframes animate-fade {
+      0% { opacity: 0; }
+      100% { opacity: 0.6; }
+   }
+
+    /*! AJUSTA A ANIMAÇÃO DA ESTRUTURA PRINCIPAL DA REVISTA */
+    .pkp_structure_main {
+      animation-duration: 0.75s;
+      animation-delay: 0.2s;
       --DelayMultiplier: 1; 
       animation-name: animate-fade;
       animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
