@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.6.4 | mapeamento-de-código v0.3.1 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.6.5 | mapeamento-de-código v0.3.2 | CC4.0 License | github.com/iKalamaZoo */
 html {
  line-height:1.15;
  -ms-text-size-adjust:100%;
@@ -3774,7 +3774,7 @@ body {
   right:150px
  }
 }
-/*! ALTERA A COR DO BOTÃO QUANDO O MOUSE NÃO REPOUSA SOBRE O OBJETO */
+/*! AJUSTA OS ATRIBUTOS DO BOTÃO DE SUBMISSÃO E RÓTULO DE FORMATO QUANDO O MOUSE NÃO REPOUSA SOBRE O OBJETO */
 .cmp_manuscript_button,
 .block_make_submission a,
 .obj_galley_link {
@@ -3783,16 +3783,20 @@ body {
  text-transform:uppercase;
  background:#fe473c;
  color:rgba(240,240,240);
- border:none
+ border:none;
+ transition: 0.5s;
 }
-/*! ALTERA A COR DO BOTÃO DE RÓTULO DE FORMATO DOS ARTIGOS QUANDO O MOUSE REPOUSA SOBRE O OBJETO */
+/*! AJUSTA OS ATRIBUTOS DO BOTÃO DE SUBMISSÃO E RÓTULO DE FORMATO QUANDO O MOUSE REPOUSA SOBRE O OBJETO */
 .cmp_manuscript_button:hover,
 .cmp_manuscript_button:focus,
 .block_make_submission a:hover,
 .block_make_submission a:focus,
 .obj_galley_link:hover,
 .obj_galley_link:focus {
- background:#fe473c
+   background:#ddd;
+   color: #222;
+   border-radius: 15px;
+   transition: 0.5s;
 }
 .cmp_breadcrumbs {
  padding:2.143rem 0;
