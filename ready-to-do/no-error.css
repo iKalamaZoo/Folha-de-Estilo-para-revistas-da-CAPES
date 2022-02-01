@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.6.1 | mapeamento-de-código v0.2.8 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.6.2 | mapeamento-de-código v0.2.9 | CC4.0 License | github.com/iKalamaZoo */
 html {
  line-height:1.15;
  -ms-text-size-adjust:100%;
@@ -1531,6 +1531,7 @@ img {
   padding-bottom:.357rem;
   line-height:1.43rem
  }
+ /*! AJUSTA A COR DE FUNDO QUANDO O NOME DE USUÁRIO ESTÁ SELECIONADO NO CANTO SUPERIOR DIREITO DO HEADER */
  .pkp_navigation_user>li>a:focus {
   outline:0;
   background:rgba(0,0,0,0.84);
@@ -3909,6 +3910,13 @@ body {
  padding-bottom:6px;
  border-bottom-width:4px
 }
+/*! ALTERA A COR DE FUNDO QUANDO UM ITEM DO MENU PRINCIPAL É CLICADO */
+#navigationPrimary>li>a:focus{
+   padding-bottom:6px;
+   border-bottom-width:4px;
+   background: #ddd
+}
+
 /*! ALTERA A COR DA LINHA INFERIOR QUANDO O MOUSE REPOUSA NO O TÍTULO DO MENU PRINCIPAL */
 #navigationPrimary>li>a:hover,
 #navigationPrimary>li>a:focus {
@@ -3988,6 +3996,7 @@ body {
   padding-right:0;
   width:auto
  }
+ /*! ALTERA A COR DO NOME DE USUÁRIO NO CANTO SUPERIOR DIREITO DO HEADER */
  .pkp_navigation_user>li>a {
   color:rgba(240,240,240)
  }
