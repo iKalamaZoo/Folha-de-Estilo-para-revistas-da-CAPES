@@ -4328,8 +4328,10 @@ body {
    opacity: 1.0
  }
  /*! -- */
+ /*! AJUSTA AS PROPRIEDADES DA COR DE FUNDO DOS BOTÕES DE SUBMISSÃO E RÓTULO DE ARTIGOS */
 .obj_article_details .entry_details .item.galleys {
- box-shadow:none
+ box-shadow:none;
+ background: transparent
 }
 .obj_article_details .entry_details .item.galleys .galleys_links {
  padding:0
