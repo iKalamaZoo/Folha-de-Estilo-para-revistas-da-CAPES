@@ -3796,7 +3796,7 @@ body {
 .obj_galley_link:hover,
 .obj_galley_link:focus {
    background:#ddd;
-   color: #222;
+   color: #f00;
    border-radius: 15px;
    transition: 0.5s;
 }
