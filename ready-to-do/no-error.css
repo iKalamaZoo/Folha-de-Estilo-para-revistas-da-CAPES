@@ -4125,7 +4125,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
    margin-block-end: -4px;
    margin-inline-end: -5px;
    content: url('https://revistas.uece.br/public/site/images/frederico/doi.png')
- }
+}
 .obj_issue_toc .heading .pub_id,
 .obj_issue_toc .heading .published {
    font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
