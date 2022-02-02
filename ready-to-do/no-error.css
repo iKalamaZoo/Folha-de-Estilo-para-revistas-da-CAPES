@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.7.1 | mapeamento-de-código v0.3.5 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.7.2 | mapeamento-de-código v0.3.6 | CC4.0 License | github.com/iKalamaZoo */
 html {
    line-height:1.15;
    -ms-text-size-adjust:100%;
@@ -998,8 +998,8 @@ body {
    font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
    font-size:14px;
    line-height:1.43rem;
-   color:rgba(0,0,0,0.87);
-   background:#fff
+   color:#222;
+   background:#ddd
 }
 a {
    color:#000
@@ -3717,10 +3717,6 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
    font-size:14px;
    src:url('//fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic');
 }
-html,
-body {
-   background:#ddd
-}
 /*! ALTERA A COR DE FUNDO, A COR PADRÃO DO TEXTO, OS CANTOS ARREDONDADOS E O TAMANHO DA PÁGINA PRINCIPAL */
 .pkp_structure_page {
    margin:0 auto;
@@ -4060,6 +4056,7 @@ body {
    display:block
  }
 }
+/*! ALTERA A COR DA LINHA INFERIOR DO VOLUME ATUAL NA PÁGINA PRINCIPAL */
 .pkp_page_index .current_issue h2 {
    display:inline-block;
    padding-bottom:0.5em;
