@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.6.7 | mapeamento-de-código v0.3.4 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.7.1 | mapeamento-de-código v0.3.5 | CC4.0 License | github.com/iKalamaZoo */
 html {
    line-height:1.15;
    -ms-text-size-adjust:100%;
@@ -1299,6 +1299,7 @@ img {
    padding-top:1rem;
    border-top:1px solid rgba(0,0,0,0.2)
 }
+/*! ALTERA O BACKGROUND DO ÍCONE DA TASK COUNT QUANDO NÃO ESTÁ SELECIONADO */
 .pkp_navigation_user .task_count {
    display:inline-block;
    width:1.43rem;
@@ -1412,13 +1413,14 @@ img {
 .pkp_nav_list ul li {
    display:block
 }
+/*! ALTERA A COR DOS TÍTULOS DO MENU DE USUÁRIO QUANDO NÃO O MOUSE NÃO REPOUSA NO OBJETO */
 .pkp_nav_list ul a {
    display:block;
    padding-left:.357rem;
    border-left:.357rem solid transparent;
    color:#4b7d92
 }
-/*! ALTERA A COR DE FUNDO QUANDO O MOUSE REPOUSA EM UM OBJETO DO SUBMENU */
+/*! ALTERA A COR DE FUNDO QUANDO O MOUSE REPOUSA EM UM OBJETO DO SUBMENU DO USUÁRIO */
 .pkp_nav_list ul a:hover,
 .pkp_nav_list ul a:focus {
    outline:0;
@@ -1552,6 +1554,7 @@ img {
 .pkp_navigation_user>li>a .task_count {
    display:inline-block
 }
+/*! ALTERA A COR DE FUNDO DO ÍCONE DA TASK COUNT */
 .pkp_navigation_user>li>a:focus .task_count {
    background:#fe473c;
    color:rgba(0,0,0,0.84)
@@ -1907,7 +1910,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    float:left;
    width:65%
  }
- /*! AJUSA A COR DA LINHA DIVISÓRIA INFERIOR DIREITA DAS NOTÍCIAS EM DESTAQUE NA PÁGINA PRINCIPAL */
+/*! AJUSA A COR DA LINHA DIVISÓRIA INFERIOR DIREITA DAS NOTÍCIAS EM DESTAQUE NA PÁGINA PRINCIPAL */
 .pkp_page_index .cmp_announcements>.obj_announcement_summary:before {
    content:' ';
    position:absolute;
@@ -1923,7 +1926,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    padding-top:1.43rem;
    padding-bottom:1.43rem
  }
- /*! AJUSTA A COR DA LINHA DIVISÓRIA SUPERIOR DIREITA DAS NOTÍCIAS EM DESTAQUE NA PÁGINA PRINCIPAL */
+/*! AJUSTA A COR DA LINHA DIVISÓRIA SUPERIOR DIREITA DAS NOTÍCIAS EM DESTAQUE NA PÁGINA PRINCIPAL */
 .pkp_page_index .cmp_announcements .more:before {
    content:' ';
    position:absolute;
@@ -3103,7 +3106,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    display:inline;
    font-size:1rem
  }
- /*! SUBSTITUI O NOME DOI PELO ÍCONE DO DOI NA PÁGINA DOS ARTIGOS */
+/*! SUBSTITUI O NOME DOI PELO ÍCONE DO DOI NA PÁGINA DOS ARTIGOS */
 .obj_article_details .item.doi .label {
    display: flex;
    margin-block-end: -3px;
@@ -3447,7 +3450,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    width:100%;
    border-top:1px solid #ddd
  }
- /*! ALTERA A COR DA FONTE DOS TÍTULOS DAS SEÇÕES DO VOLUME */
+/*! ALTERA A COR DA FONTE DOS TÍTULOS DAS SEÇÕES DO VOLUME */
 .obj_issue_toc .galleys>h2,
 .obj_issue_toc .section>h2,
 .obj_issue_toc .galleys>h3,
@@ -3949,6 +3952,7 @@ body {
  #navigationPrimary a:focus {
   color:#fe473c
  }
+/*! ALTERA A COR DE FUNDO DO SUBMENU */
  #navigationPrimary ul {
   background:#fe473c
  }
@@ -3996,6 +4000,7 @@ body {
 .pkp_navigation_user_wrapper a {
    color:rgba(0,0,0,0.54)
  }
+/*! ALTERA A LINHA INFERIOR QUANDO O USUÁRIO É SELECIONADO */
 .pkp_navigation_user_wrapper ul a:hover,
 .pkp_navigation_user_wrapper ul a:focus {
    border-color:#fe473c
