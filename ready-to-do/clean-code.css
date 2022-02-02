@@ -3454,7 +3454,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 }
 .pkp_block {
    padding:2.143rem 1.43rem;
-   font-size:1rem;
+   font-size:12px;
    line-height:1.43rem
 }
 .pkp_block .title {
@@ -3513,7 +3513,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 }
 .block_information a,
 .block_language_toggle a {
-   font-size:.93rem
+   font-size:12px
 }
 .block_subscription .subscription_name {
    margin-bottom:0;
