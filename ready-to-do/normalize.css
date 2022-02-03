@@ -3810,7 +3810,7 @@ body {
  text-transform:uppercase
 }
 .pkp_page_index .homepage_image {
- margin-top:-1px
+ margin-top:0px
 }
 .pkp_page_index .cmp_announcements {
  border:none
