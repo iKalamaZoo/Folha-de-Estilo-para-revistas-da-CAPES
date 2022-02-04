@@ -2078,7 +2078,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    transition: 0.5s;
 }
 .pkp_search_desktop.is_open {
-   min-width:28%;
+   min-width:30%;
    background:transparent
 }
 .pkp_search_desktop.is_open input[type="text"] {
@@ -4069,13 +4069,13 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
    color:rgba(0,0,0,0.84)
 }
 .header_view .title {
-   color:rgba(240,240,240)
+   color:#fff
 }
 .header_view .title:hover,
 .header_view .title:focus {
    background:#fe473c;
-   color:rgba(240,240,240);
-   text-decoration:underline
+   color:#222;
+   text-decoration:none
 }
 .obj_issue_toc .heading .pub_id .type{
    margin-block-end: -4px;
@@ -4377,6 +4377,19 @@ body[dir="rtl"] .pkp_structure_sidebar::before {
  }
  .page_search .submit button {
    transition: 0.5s;
+}
+.header_view {
+   background:#fe473c;
+   color:#222
+}
+.header_view .title {
+   color:#fff
+}
+.header_view .title:hover,
+.header_view .title:focus {
+   background:#fe473c;
+   color:#222;
+   text-decoration:none
 }
 .summary img {
 	animation-duration: 0.75s;

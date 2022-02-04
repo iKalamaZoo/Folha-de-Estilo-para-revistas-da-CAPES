@@ -3898,13 +3898,13 @@ body {
  color:rgba(0,0,0,0.84)
 }
 .header_view .title {
- color:rgba(0,0,0,0.84)
+ color:#fff
 }
 .header_view .title:hover,
 .header_view .title:focus {
  background:#0a0;
  color:rgba(0,0,0,0.84);
- text-decoration:underline
+ text-decoration:none
 }
 .obj_issue_toc .heading .pub_id,
 .obj_issue_toc .heading .published {
@@ -4140,7 +4140,7 @@ body {
    color: #fff;
 }
 .pkp_search_desktop.is_open {
-    min-width:28%;
+    min-width:30%;
     background:transparent
 }
 .pkp_search_desktop.is_open input[type="text"] {

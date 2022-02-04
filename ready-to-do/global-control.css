@@ -4145,7 +4145,7 @@ html {
 }
   /*! ALTERA O TAMANHO DA BARRA DE BUSCA */
   .pkp_search_desktop.is_open {
-      min-width:28%;
+      min-width:30%;
       background:transparent
   }
   /*! ALTERA O TAMANHO DO TEXTO NA BARRA DE BUSCA DA PÁGINA PRINCIPAL */
@@ -4719,7 +4719,23 @@ html {
    border-bottom:1px solid #ddd;
    font-size:14px;
    background:#fff
-} 
+}
+/*! ALTERA A COR DA BARRA DE TÍTULO NO VISUALIZADOR DE PDF QUANDO O MOUSE NÃO REPOUSA NO OBJETO */
+.header_view {
+   background:#fe473c;
+   color:#222
+}
+/*! ALTERA A COR DO TÍTULO DO ARTIGO NO VISUALIZADOR DE PDF QUANDO O MOUSE NÃO REPOUSA NO OBJETO */
+.header_view .title {
+   color:#fff
+}
+/*! ALTERA A COR DA BARRA DE TÍTULO NO VISUALIZADOR DE PDF QUANDO O MOUSE REPOUSA NO OBJETO */
+.header_view .title:hover,
+.header_view .title:focus {
+   background:#fe473c;
+   color:#222;
+   text-decoration:none
+}
   /* ==========================================================================
                                   Animations
     ========================================================================== */
