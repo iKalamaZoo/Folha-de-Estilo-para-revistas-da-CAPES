@@ -2297,7 +2297,7 @@ html {
    width:100%;
    max-width:100%;
    height:calc(2.857rem - 2px);
-   font-size:1.285rem;
+   font-size:14px;
    line-height:calc(2.857rem - 2px)
   }
   .page_search .search_advanced {
@@ -4148,6 +4148,21 @@ html {
       min-width:28%;
       background:transparent
   }
+  /*! ALTERA O TAMANHO DO TEXTO NA BARRA DE BUSCA DA PÁGINA PRINCIPAL */
+  .pkp_search_desktop.is_open input[type="text"] {
+   width:100%;
+   max-width:100%;
+   line-height:40px;
+   height:40px;
+   top:0;
+   left:0;
+   padding-left:0.5em;
+   padding-right:180px;
+   border:none;
+   border-bottom:1px solid #ddd;
+   font-size:14px;
+   background:#fff
+}
   /*! ALTERA A COR DO TÍTULO DA BUSCA QUANDO O MOUSE NÃO RESPOUSA NO OBJETO */
   .pkp_search_desktop .search_prompt {
       display: inline-block;
@@ -4156,6 +4171,21 @@ html {
       color: #222;
       cursor: pointer;
   }
+  /*! ALTERA O TAMANHO DO TEXTO NO CAMPO DE PESQUISA DA PÁGINA PRINCIPAL */
+  .pkp_search_desktop.is_open input[type="text"] {
+   width:100%;
+   max-width:100%;
+   line-height:40px;
+   height:40px;
+   top:0;
+   left:0;
+   padding-left:0.5em;
+   padding-right:180px;
+   border:none;
+   border-bottom:1px solid #ddd;
+   font-size:14px;
+   background:#fff
+}
   /*! ALTERA A COR DA LINHA INFERIOR DA BUSCA QUANDO O MOUSE REPOUSA NO OBJETO */
   .pkp_search_desktop .search_prompt:hover,
   .pkp_search_desktop .search_prompt:focus {
@@ -4662,7 +4692,29 @@ html {
    border-left:none;
    color: #222
  }
-  
+  /*! ALTERA O TAMANHO DO TEXTO NO CAMPO DE PESQUISA DA PÁGINA DE BUSCA */
+  .page_search .search_input .query {
+   width:100%;
+   max-width:100%;
+   height:calc(2.857rem - 2px);
+   font-size:14px;
+   line-height:calc(2.857rem - 2px)
+}
+/*! ALTERA O TAMANHO DO TEXTO NA BARRA DE BUSCA DA PÁGINA PRINCIPAL */
+  .pkp_search_desktop.is_open input[type="text"] {
+   width:100%;
+   max-width:100%;
+   line-height:40px;
+   height:40px;
+   top:0;
+   left:0;
+   padding-left:0.5em;
+   padding-right:180px;
+   border:none;
+   border-bottom:1px solid #ddd;
+   font-size:14px;
+   background:#fff
+} 
   /* ==========================================================================
                                   Animations
     ========================================================================== */

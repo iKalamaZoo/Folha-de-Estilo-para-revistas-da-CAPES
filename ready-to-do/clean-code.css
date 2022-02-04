@@ -1,4 +1,4 @@
-/*! folha-de-estilo.css v1.7.4 | mapeamento-de-código v0.3.7 | CC4.0 License | github.com/iKalamaZoo */
+/*! folha-de-estilo.css v1.7.8 | mapeamento-de-código v0.3.9 | CC4.0 License | github.com/iKalamaZoo */
 html {
    line-height:1.15;
    -ms-text-size-adjust:100%;
@@ -2093,7 +2093,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    padding-right:180px;
    border:none;
    border-bottom:1px solid #ddd;
-   font-size:16px;
+   font-size:14px;
    background:#fff
 }
 .pkp_search_desktop.is_open input[type="text"]:hover,
@@ -2433,7 +2433,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    width:100%;
    max-width:100%;
    height:calc(2.857rem - 2px);
-   font-size:1.285rem;
+   font-size:14px;
    line-height:calc(2.857rem - 2px)
 }
 .page_search .search_advanced {
