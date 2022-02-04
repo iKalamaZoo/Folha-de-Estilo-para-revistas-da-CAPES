@@ -2111,10 +2111,11 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 }
 .pkp_search_desktop.is_open .search_prompt:hover,
 .pkp_search_desktop.is_open .search_prompt:focus {
-   border-bottom-color:#ff4040
+   border-bottom: 2px solid #ff4040;
+   padding-bottom: 8px
 }
 .pkp_search_desktop.is_searching input[type="text"] {
-    opacity:0.5
+   opacity:0.5
 }
 .pkp_search_desktop.is_searching input[type="text"]:hover,
 .pkp_search_desktop.is_searching input[type="text"]:focus {
@@ -3875,7 +3876,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 .pkp_navigation_primary_row {
    background:#ddd;
    padding-left:2.143rem;
-   padding-right:2.143rem
+   padding-right:0rem
  }
 }
 .pkp_navigation_primary_wrapper {
@@ -4371,8 +4372,12 @@ body[dir="rtl"] .pkp_structure_sidebar::before {
    padding-left:3.2145rem;
    border-right:1px solid rgba(0,0,0,0.4);
    border-left:none;
-   color: #222
+   color: #222;
+   border-radius:50px
  }
+ .page_search .submit button {
+   transition: 0.5s;
+}
 .summary img {
 	animation-duration: 0.75s;
 	animation-delay: 0.9s;

@@ -4214,7 +4214,8 @@ html {
   /*! ALTERA A COR DA LINHA INFERIOR DA BUSCA QUANDO ELA ESTÁ ATIVA */
    .pkp_search_desktop.is_open .search_prompt:hover,
    .pkp_search_desktop.is_open .search_prompt:focus {
-     border-bottom-color:#ff4040
+      border-bottom: 2px solid #ff4040;
+      padding-bottom: 8px
   }
   /*! ALTERA A COR DOS TÍTULOS DO VOLUME E AUTORIA DOS ARTIGOS */
   html,
@@ -4486,7 +4487,7 @@ html {
   .pkp_navigation_primary_row {
      background:#ddd;
      padding-left:2.143rem;
-     padding-right:2.143rem
+     padding-right:0rem
    }
   }
   /*! ALTERA A COR DE FUNDO QUANDO UM ITEM DO MENU PRINCIPAL É CLICADO */
@@ -4690,8 +4691,12 @@ html {
    padding-left:3.2145rem;
    border-right:1px solid rgba(0,0,0,0.4);
    border-left:none;
-   color: #222
+   color: #222;
+   border-radius: 50px
  }
+  .page_search .submit button {
+   transition: 0.5s;
+}
   /*! ALTERA O TAMANHO DO TEXTO NO CAMPO DE PESQUISA DA PÁGINA DE BUSCA */
   .page_search .search_input .query {
    width:100%;

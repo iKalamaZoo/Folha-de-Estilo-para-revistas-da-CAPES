@@ -2364,6 +2364,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
  padding-left:3.2145rem;
  border-right:1px solid rgba(0,0,0,0.4);
  border-left:none;
+ border-radius:50px;
  color: #222
 }
 .page_search .submit button:after {
@@ -3709,7 +3710,7 @@ body {
  .pkp_navigation_primary_row {
   background:#ddd;
   padding-left:2.143rem;
-  padding-right:2.143rem
+  padding-right:0rem
  }
 }
 .pkp_navigation_primary_wrapper {
@@ -4178,12 +4179,13 @@ body {
  }
  .pkp_search_desktop.is_open .search_prompt:hover,
  .pkp_search_desktop.is_open .search_prompt:focus {
-    border-bottom-color:#0a0
+    border-bottom: 2px solid #0a0;
+    padding-bottom: 8px
  }
 #navigationPrimary>li>a:focus{
-        padding-bottom:6px;
-        border-bottom-width:4px;
-        background: #ddd
+    padding-bottom:6px;
+    border-bottom-width:4px;
+    background: #ddd
  }
 
  /*! --END-- */
