@@ -885,13 +885,14 @@ template {
 .cmp_search_filter .delete {
    color:#ff4040
 }
+/*! ALTERA A COR DE FUNDO DA BORDA DA NOTIFICAÇÃO DE RESULTADO NÃO ENCONTRADO NA PÁGINA DE BUSCA */
 .cmp_notification {
    display:block;
    width:100%;
    padding:1.43rem;
    margin-bottom:2.857rem;
    background:#ddd;
-   border-left:.357rem solid #4b7d92;
+   border-left:.357rem solid #fe473c;
    font-size:1rem;
    line-height:1.43rem
 }
@@ -2073,6 +2074,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 .pkp_search_desktop .search_controls {
    display:inline-block
 }
+/*! ALTERA A COR DO TÍTULO DA BUSCA QUANDO O MOUSE NÃO RESPOUSA NO OBJETO */
 .pkp_search_desktop .search_prompt {
    display:inline-block;
    position:relative;
@@ -2091,9 +2093,23 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    padding-bottom:8px;
    border-bottom:2px solid #ff4040
 }
+/*! ALTERA A COR DO CÍRCULO DO BOTÃO QUE CANCELA A PESQUISA QUANDO ELA ESTÁ ATIVA */
+.pkp_search .search_cancel:hover,
+.pkp_search .search_cancel:focus {
+   outline: none;
+   border-radius: 50%;
+   background: #ff4040;
+   color: #fff;
+}
+/*! ALTERA A ANIMAÇÃO DO CÍRCULO DO BOTÃO QUE CANCELA A PESQUISA QUANDO ELA ESTÁ ATIVA */
+.pkp_search .search_cancel {
+   border-radius: 50%;
+   transition: 0.5s;
+}
+/*! ALTERA O TAMANHO DA BARRA DE BUSCA */
 .pkp_search_desktop.is_open {
-   min-width:100%;
-   background:#000
+   min-width:28%;
+   background:transparent
 }
 .pkp_search_desktop.is_open input[type="text"] {
    width:100%;
@@ -2116,16 +2132,18 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 .pkp_search_desktop.is_open .search_cancel {
    display:block
 }
+/*! ALTERA A COR DO TÍTULO DA BUSCA QUANDO A PESQUISA ESTÁ ATIVA */
 .pkp_search_desktop.is_open .search_prompt {
    padding-bottom:9px;
    background:#fff;
    border-left:1px solid #ddd;
    border-bottom:1px solid #ddd;
-   color:#007ab2
+   color:#222
 }
+/*! ALTERA A COR DA LINHA INFERIOR DA BUSCA QUANDO ELA ESTÁ ATIVA */
 .pkp_search_desktop.is_open .search_prompt:hover,
 .pkp_search_desktop.is_open .search_prompt:focus {
-   border-bottom-color:#007ab2
+   border-bottom-color:#ff4040
 }
 .pkp_search_desktop.is_searching input[type="text"] {
     opacity:0.5
@@ -2505,6 +2523,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 .page_search .submit {
    text-align:right
 }
+/*! ALTERA A COR DO TÍTULO DO BOTÃO DE BUSCA NA PÁGINA DE PESQUISA QUANDO O MOUSE NÃO REPOUSA NO OBJETO */
 .page_search .submit button {
    position:relative;
    padding-right:3.2145rem;
@@ -2512,8 +2531,10 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    padding-right:1em;
    padding-left:3.2145rem;
    border-right:1px solid rgba(0,0,0,0.4);
-   border-left:none
+   border-left:none;
+   color: #222
 }
+/*! ALTERA A COR DE FUNDO DA LUPA NA PÁGINA DE BUSCA QUANDO O MOUSE NÃO REPOUSA NO OOBJETO */
 .page_search .submit button:after {
    display:inline-block;
    font:normal normal normal 14px/1 FontAwesome;
@@ -2532,14 +2553,19 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    border-bottom-right-radius:3px;
    line-height:2.143rem;
    text-align:center;
-   background:#4b7d92;
+   background:#fe473c;
    box-shadow:inset 0 -1em 1em rgba(0,0,0,0.2);
    color:#fff
 }
+/*! ALTERA A COR DE FUNDO DA LUPA NA PÁGINA DE BUSCA QUANDO O MOUSE REPOUSA NO OOBJETO */
 .page_search .submit button:hover:after,
 .page_search .submit button:focus:after {
    box-shadow:inset 0 1em 1em rgba(0,0,0,0.2);
    background:#6298ae
+}
+/*! ALTERA A ANIMAÇÃO DA MUDANÇA DE COR DE FUNDO DA LUPA NA PÁGINA DE PESQUISA */
+.page_search .submit button:after {
+   transition: 0.5s;
 }
 .page_search .submit button:after {
    right:auto;

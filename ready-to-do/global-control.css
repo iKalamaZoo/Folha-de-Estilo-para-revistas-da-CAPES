@@ -4129,21 +4129,41 @@ html {
    }
   }
   
-  /*! --ADD-- */
-  
+/*! --ADD-- */
+/*! ALTERA A COR DO CÍRCULO DO BOTÃO QUE CANCELA A PESQUISA QUANDO ELA ESTÁ ATIVA */
+.pkp_search .search_cancel:hover,
+.pkp_search .search_cancel:focus {
+   outline: none;
+   border-radius: 50%;
+   background: #ff4040;
+   color: #fff;
+}
+/*! ALTERA A ANIMAÇÃO DO CÍRCULO DO BOTÃO QUE CANCELA A PESQUISA QUANDO ELA ESTÁ ATIVA */
+.pkp_search .search_cancel {
+   border-radius: 50%;
+   transition: 0.5s;
+}
+  /*! ALTERA O TAMANHO DA BARRA DE BUSCA */
+  .pkp_search_desktop.is_open {
+      min-width:28%;
+      background:transparent
+  }
+  /*! ALTERA A COR DO TÍTULO DA BUSCA QUANDO O MOUSE NÃO RESPOUSA NO OBJETO */
   .pkp_search_desktop .search_prompt {
       display: inline-block;
       position: relative;
       padding: 10px 20px;
-      color: #000;
+      color: #222;
       cursor: pointer;
   }
+  /*! ALTERA A COR DA LINHA INFERIOR DA BUSCA QUANDO O MOUSE REPOUSA NO OBJETO */
   .pkp_search_desktop .search_prompt:hover,
   .pkp_search_desktop .search_prompt:focus {
      outline:0;
      padding-bottom:8px;
      border-bottom:2px solid #0a0
   }
+  /*! ALTERA A COR DE FUNDO DO ITEM DO MENU PRINCIPAL QUANDO CLICAMOS NO OBJETO */
   #navigationPrimary>li>a:focus{
           padding-bottom:6px;
           border-bottom-width:4px;
@@ -4152,8 +4172,20 @@ html {
   
   /*! --END-- */
   
-  /*! --START-- */
-  
+   /*! --START-- */
+   /*! ALTERA A COR DO TÍTULO DA BUSCA QUANDO A PESQUISA ESTÁ ATIVA */
+   .pkp_search_desktop.is_open .search_prompt {
+    padding-bottom:9px;
+    background:#fff;
+    border-left:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    color:#222
+}
+  /*! ALTERA A COR DA LINHA INFERIOR DA BUSCA QUANDO ELA ESTÁ ATIVA */
+   .pkp_search_desktop.is_open .search_prompt:hover,
+   .pkp_search_desktop.is_open .search_prompt:focus {
+     border-bottom-color:#ff4040
+  }
   /*! ALTERA A COR DOS TÍTULOS DO VOLUME E AUTORIA DOS ARTIGOS */
   html,
   body {
@@ -4575,6 +4607,61 @@ html {
      border-right:1px solid #ddd
    }
   }
+  /*! ALTERA A COR DE FUNDO DA LUPA NA PÁGINA DE BUSCA QUANDO O MOUSE NÃO REPOUSA NO OOBJETO */
+  .page_search .submit button:after {
+   display:inline-block;
+   font:normal normal normal 14px/1 FontAwesome;
+   font-size:inherit;
+   text-rendering:auto;
+   -webkit-font-smoothing:antialiased;
+   -moz-osx-font-smoothing:grayscale;
+   transform:translate(0, 0);
+   content:"\f002";
+   position:absolute;
+   top:-1px;
+   right:0;
+   width:2.143rem;
+   height:2.143rem;
+   border-top-right-radius:3px;
+   border-bottom-right-radius:3px;
+   line-height:2.143rem;
+   text-align:center;
+   background:#fe473c;
+   box-shadow:inset 0 -1em 1em rgba(0,0,0,0.2);
+   color:#fff
+  }
+  /*! ALTERA A ANIMAÇÃO DA MUDANÇA DE COR DE FUNDO DA LUPA NA PÁGINA DE PESQUISA */
+  .page_search .submit button:after {
+     transition: 0.5s;
+  }
+  /*! ALTERA A COR DE FUNDO DA LUPA NA PÁGINA DE BUSCA QUANDO O MOUSE REPOUSA NO OOBJETO */
+  .page_search .submit button:hover:after,
+  .page_search .submit button:focus:after {
+   box-shadow:inset 0 1em 1em rgba(0,0,0,0.2);
+   background:#6298ae
+}
+  /*! ALTERA A COR DE FUNDO DA BORDA DA NOTIFICAÇÃO DE RESULTADO NÃO ENCONTRADO NA PÁGINA DE BUSCA */
+  .cmp_notification {
+   display:block;
+   width:100%;
+   padding:1.43rem;
+   margin-bottom:2.857rem;
+   background:#ddd;
+   border-left:.357rem solid #fe473c;
+   font-size:1rem;
+   line-height:1.43rem
+}
+  /*! ALTERA A COR DO TÍTULO DO BOTÃO DE BUSCA NA PÁGINA DE PESQUISA QUANDO O MOUSE NÃO REPOUSA NO OBJETO */
+  .page_search .submit button {
+   position:relative;
+   padding-right:3.2145rem;
+   border-right:none;
+   padding-right:1em;
+   padding-left:3.2145rem;
+   border-right:1px solid rgba(0,0,0,0.4);
+   border-left:none;
+   color: #222
+ }
   
   /* ==========================================================================
                                   Animations

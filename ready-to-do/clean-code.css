@@ -2067,9 +2067,20 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    padding-bottom:8px;
    border-bottom:2px solid #ff4040
 }
+.pkp_search .search_cancel:hover,
+.pkp_search .search_cancel:focus {
+   outline: none;
+   border-radius: 50%;
+   background: #ff4040;
+   color: #fff;
+}
+.pkp_search .search_cancel {
+   border-radius: 50%;
+   transition: 0.5s;
+}
 .pkp_search_desktop.is_open {
-   min-width:100%;
-   background:#000
+   min-width:28%;
+   background:transparent
 }
 .pkp_search_desktop.is_open input[type="text"] {
    width:100%;
@@ -2097,11 +2108,11 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
    background:#fff;
    border-left:1px solid #ddd;
    border-bottom:1px solid #ddd;
-   color:#007ab2
+   color:#222
 }
 .pkp_search_desktop.is_open .search_prompt:hover,
 .pkp_search_desktop.is_open .search_prompt:focus {
-   border-bottom-color:#007ab2
+   border-bottom-color:#ff4040
 }
 .pkp_search_desktop.is_searching input[type="text"] {
     opacity:0.5
@@ -4313,6 +4324,56 @@ body[dir="rtl"] .pkp_structure_sidebar::before {
    border-right:1px solid #ddd
  }
 }
+.page_search .submit button:after {
+   display:inline-block;
+   font:normal normal normal 14px/1 FontAwesome;
+   font-size:inherit;
+   text-rendering:auto;
+   -webkit-font-smoothing:antialiased;
+   -moz-osx-font-smoothing:grayscale;
+   transform:translate(0, 0);
+   content:"\f002";
+   position:absolute;
+   top:-1px;
+   right:0;
+   width:2.143rem;
+   height:2.143rem;
+   border-top-right-radius:3px;
+   border-bottom-right-radius:3px;
+   line-height:2.143rem;
+   text-align:center;
+   background:#fe473c;
+   box-shadow:inset 0 -1em 1em rgba(0,0,0,0.2);
+   color:#fff
+  }
+  .page_search .submit button:hover:after,
+  .page_search .submit button:focus:after {
+   box-shadow:inset 0 1em 1em rgba(0,0,0,0.2);
+   background:#6298ae
+}
+.page_search .submit button:after {
+   transition: 0.5s;
+}
+.cmp_notification {
+   display:block;
+   width:100%;
+   padding:1.43rem;
+   margin-bottom:2.857rem;
+   background:#ddd;
+   border-left:.357rem solid #fe473c;
+   font-size:1rem;
+   line-height:1.43rem
+}
+  .page_search .submit button {
+   position:relative;
+   padding-right:3.2145rem;
+   border-right:none;
+   padding-right:1em;
+   padding-left:3.2145rem;
+   border-right:1px solid rgba(0,0,0,0.4);
+   border-left:none;
+   color: #222
+ }
 .summary img {
 	animation-duration: 0.75s;
 	animation-delay: 0.9s;

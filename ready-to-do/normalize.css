@@ -887,7 +887,7 @@ template {
  padding:1.43rem;
  margin-bottom:2.857rem;
  background:#ddd;
- border-left:.357rem solid #4b7d92;
+ border-left:.357rem solid #0a0;
  font-size:1rem;
  line-height:1.43rem
 }
@@ -2363,7 +2363,8 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
  padding-right:1em;
  padding-left:3.2145rem;
  border-right:1px solid rgba(0,0,0,0.4);
- border-left:none
+ border-left:none;
+ color: #222
 }
 .page_search .submit button:after {
  display:inline-block;
@@ -2383,7 +2384,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
  border-bottom-right-radius:3px;
  line-height:2.143rem;
  text-align:center;
- background:#4b7d92;
+ background:#0a0;
  box-shadow:inset 0 -1em 1em rgba(0,0,0,0.2);
  color:#fff
 }
@@ -4130,7 +4131,17 @@ body {
 }
 
 /*! --ADD-- */
-
+.pkp_search .search_cancel:hover,
+.pkp_search .search_cancel:focus {
+   outline: none;
+   border-radius: 50%;
+   background: #0a0;
+   color: #fff;
+}
+.pkp_search_desktop.is_open {
+    min-width:28%;
+    background:transparent
+}
 .pkp_search_desktop .search_prompt {
     display: inline-block;
     position: relative;
@@ -4144,10 +4155,21 @@ body {
    padding-bottom:8px;
    border-bottom:2px solid #0a0
 }
+.pkp_search_desktop.is_open .search_prompt {
+    padding-bottom:9px;
+    background:#fff;
+    border-left:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    color:#222
+ }
+ .pkp_search_desktop.is_open .search_prompt:hover,
+ .pkp_search_desktop.is_open .search_prompt:focus {
+    border-bottom-color:#0a0
+ }
 #navigationPrimary>li>a:focus{
         padding-bottom:6px;
         border-bottom-width:4px;
         background: #ddd
-}
+ }
 
-/*! --END-- */
+ /*! --END-- */
