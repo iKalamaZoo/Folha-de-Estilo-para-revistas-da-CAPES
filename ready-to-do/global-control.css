@@ -4749,6 +4749,10 @@ html {
      animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
      animation-fill-mode: backwards;
   }
+   .summary img:hover {
+     transform: translate(0px, -10px);
+     opacity: 1.0
+  }
   
   /* Slide In */
   

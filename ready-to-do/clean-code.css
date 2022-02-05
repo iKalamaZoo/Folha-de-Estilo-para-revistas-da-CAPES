@@ -4398,7 +4398,12 @@ body[dir="rtl"] .pkp_structure_sidebar::before {
    animation-name: animate-slide;
 	animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
 	animation-fill-mode: backwards;
+   transition: 0.5s;
 }
+.summary img:hover{
+   transform: translate(0px, -10px);
+   opacity: 1.0
+ }
 .animate.slide { animation-name: animate-slide; }
 @keyframes animate-slide {
    0% {
