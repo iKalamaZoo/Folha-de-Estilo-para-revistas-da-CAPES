@@ -320,12 +320,12 @@ html {
    cursor:not-allowed
   }
   .pkp_button_offset {
-   color:#ff4040
+   color:#fe473c
   }
   .pkp_button_offset:hover,
   .pkp_button_offset:focus {
-   border-color:#ff4040;
-   color:#ff4040
+   border-color:#fe473c;
+   color:#fe473c
   }
   .pkp_button_offset:disabled,
   .pkp_button_offset:disabled:hover {
@@ -584,7 +584,7 @@ html {
   }
   .pkp_helpers_debug,
   .pkp_helpers_debug div {
-   border:1px dashed #f00;
+   border:1px dashed #fe473c;
    padding:2px
   }
   .pkp_helpers_flatlist {
@@ -724,7 +724,7 @@ html {
    left:0.5em;
    bottom:11px;
    padding:0 .5em;
-   background:#ff4040;
+   background:#fe473c;
    border-bottom-left-radius:3px;
    border-bottom-right-radius:3px;
    font-size:.93rem;
@@ -743,7 +743,7 @@ html {
    font-style:italic
   }
   .cmp_form .label .required {
-   color:#ff4040
+   color:#fe473c
   }
   .cmp_form input[type="text"],
   .cmp_form input[type="email"],
@@ -771,7 +771,7 @@ html {
    padding:0 .5em;
    font-weight:700;
    font-size:.93rem;
-   background:#ff4040;
+   background:#fe473c;
    color:#fff
   }
   .cmp_form label>input[type="checkbox"],
@@ -879,7 +879,7 @@ html {
    font-style:italic
   }
   .cmp_search_filter .delete {
-   color:#ff4040
+   color:#fe473c
   }
   .cmp_notification {
    display:block;
@@ -895,7 +895,7 @@ html {
    border-color:#00b24e
   }
   .cmp_notification .no {
-   border-color:#ff4040
+   border-color:#fe473c
   }
   .cmp_breadcrumbs {
    display:inline-block
@@ -2162,7 +2162,7 @@ html {
   .page_lost_password .pkp_form_error {
    margin:1.43rem 0;
    padding:.714rem;
-   background:#ff4040;
+   background:#fe473c;
    color:#fff;
    font-size:.93rem;
    font-weight:700
@@ -2236,7 +2236,7 @@ html {
   .page_register #formErrors {
    margin:1.43rem 0;
    padding:.714rem;
-   background:#ff4040;
+   background:#fe473c;
    color:#fff
   }
   .page_register #formErrors .pkp_form_error {
@@ -2615,7 +2615,7 @@ html {
    top:2.143rem;
    width:100%;
    height:4.286rem;
-   background:#ff4040
+   background:#fe473c
   }
   .galley_view .galley_view_notice_message {
    position:absolute;
@@ -4135,7 +4135,7 @@ html {
 .pkp_search .search_cancel:focus {
    outline: none;
    border-radius: 50%;
-   background: #ff4040;
+   background: #fe473c;
    color: #fff;
 }
 /*! ALTERA A ANIMAÇÃO DO CÍRCULO DO BOTÃO QUE CANCELA A PESQUISA QUANDO ELA ESTÁ ATIVA */
@@ -4214,7 +4214,7 @@ html {
   /*! ALTERA A COR DA LINHA INFERIOR DA BUSCA QUANDO ELA ESTÁ ATIVA */
    .pkp_search_desktop.is_open .search_prompt:hover,
    .pkp_search_desktop.is_open .search_prompt:focus {
-      border-bottom: 2px solid #ff4040;
+      border-bottom: 2px solid #fe473c;
       padding-bottom: 8px
   }
   /*! ALTERA A COR DOS TÍTULOS DO VOLUME E AUTORIA DOS ARTIGOS */
@@ -4346,7 +4346,7 @@ html {
   .pkp_search_desktop .search_prompt:focus {
      outline:0;
      padding-bottom:8px;
-     border-bottom:2px solid #ff4040
+     border-bottom:2px solid #fe473c
   }
   /*! ALTERA A COR DO MENU SAIBA MAIS NA NOTÍCIA QUE APARECE EM DESTAQUE NA PÁGINA PRINCIPAL */
   .obj_announcement_summary .read_more {
@@ -4457,7 +4457,7 @@ html {
      text-transform:uppercase;
      background:#fe473c;
      color:#fff;
-     border:none;
+     border:1px solid #fe473c;
      transition: 0.5s;
   }
   /*! AJUSTA OS ATRIBUTOS DO BOTÃO DE SUBMISSÃO E RÓTULO DE FORMATO QUANDO O MOUSE REPOUSA SOBRE O OBJETO */
@@ -4467,10 +4467,11 @@ html {
   .block_make_submission a:focus,
   .obj_galley_link:hover,
   .obj_galley_link:focus {
-     background:#ddd;
-     color: #f00;
+     background:#fff;
+     color: #fe473c;
      border-radius: 15px;
-     transition: 0.5s;
+     border: 1px solid;
+     transition: 0.5s
   }
   /*! ALTERA A COR ÍCONE DE DO CALENDÁRIO DA DATA DA NOTÍCIA QUE APARECE EM DESTAQUE NA PÁGINA PRINCIPAL*/
   .cmp_announcements .date:before {

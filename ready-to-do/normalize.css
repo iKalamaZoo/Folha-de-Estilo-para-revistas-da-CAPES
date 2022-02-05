@@ -320,12 +320,12 @@ template {
  cursor:not-allowed
 }
 .pkp_button_offset {
- color:#ff4040
+ color:#0a0
 }
 .pkp_button_offset:hover,
 .pkp_button_offset:focus {
- border-color:#ff4040;
- color:#ff4040
+ border-color:#0a0;
+ color:#0a0
 }
 .pkp_button_offset:disabled,
 .pkp_button_offset:disabled:hover {
@@ -584,7 +584,7 @@ template {
 }
 .pkp_helpers_debug,
 .pkp_helpers_debug div {
- border:1px dashed #f00;
+ border:1px dashed #0a0;
  padding:2px
 }
 .pkp_helpers_flatlist {
@@ -724,7 +724,7 @@ template {
  left:0.5em;
  bottom:11px;
  padding:0 .5em;
- background:#ff4040;
+ background:#0a0;
  border-bottom-left-radius:3px;
  border-bottom-right-radius:3px;
  font-size:.93rem;
@@ -743,7 +743,7 @@ template {
  font-style:italic
 }
 .cmp_form .label .required {
- color:#ff4040
+ color:#0a0
 }
 .cmp_form input[type="text"],
 .cmp_form input[type="email"],
@@ -771,7 +771,7 @@ template {
  padding:0 .5em;
  font-weight:700;
  font-size:.93rem;
- background:#ff4040;
+ background:#0a0;
  color:#fff
 }
 .cmp_form label>input[type="checkbox"],
@@ -879,7 +879,7 @@ template {
  font-style:italic
 }
 .cmp_search_filter .delete {
- color:#ff4040
+ color:#0a0
 }
 .cmp_notification {
  display:block;
@@ -895,7 +895,7 @@ template {
  border-color:#00b24e
 }
 .cmp_notification .no {
- border-color:#ff4040
+ border-color:#0a0
 }
 .cmp_breadcrumbs {
  display:inline-block
@@ -2162,7 +2162,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 .page_lost_password .pkp_form_error {
  margin:1.43rem 0;
  padding:.714rem;
- background:#ff4040;
+ background:#0a0;
  color:#fff;
  font-size:.93rem;
  font-weight:700
@@ -2236,7 +2236,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 .page_register #formErrors {
  margin:1.43rem 0;
  padding:.714rem;
- background:#ff4040;
+ background:#0a0;
  color:#fff
 }
 .page_register #formErrors .pkp_form_error {
@@ -2617,7 +2617,7 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
  top:2.143rem;
  width:100%;
  height:4.286rem;
- background:#ff4040
+ background:#0a0
 }
 .galley_view .galley_view_notice_message {
  position:absolute;
