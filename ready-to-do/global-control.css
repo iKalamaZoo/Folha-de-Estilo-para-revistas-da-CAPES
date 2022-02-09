@@ -1443,9 +1443,9 @@ img {
    .pkp_navigation_primary > li:first-child a {
        margin-left: -0.5em;
    }
-   .pkp_navigation_primary > li:last-child a {
+   /* .pkp_navigation_primary > li:last-child a {
        margin-right: -0.5em;
-   }
+   } */
    .pkp_navigation_primary > li:hover ul {
        left: 1rem;
    }
@@ -4270,7 +4270,7 @@ a:focus {
    text-align: center;
    font-size: 0.857rem;
    position: relative;
-   top: 0.3rem;
+   top: 0;
 }
 /*! AJUSTA A ANIMAÇÃO DA IMAGEM PRINCIPAL DO SITE DA REVISTA */
 .pkp_site_name .is_img img {
@@ -4300,6 +4300,7 @@ a:focus {
    outline: 0;
    background: rgba(0, 0, 0, 0.84);
    color: #fe473c;
+   border-radius: 15px;
 }
 /*! AJUSTA A COR DO NOME DE USUÁRIO NO CANTO SUPERIOR DIREITO DA PÁGINA DA REVISTA */
 .pkp_navigation_user > li:last-child > a {
@@ -4527,12 +4528,27 @@ a:focus {
        #navigationPrimary ul a {
            color: rgba(240, 240, 240);
        }
-       /*! ALTERA A LINHA DA ESQUERDA DO SUBMENU QUANDO O MOUSE REPOUSA NO OBJETO */
+       /*! ALTERA A COR DO SUBMENU QUANDO O MOUSE REPOUSA NO OBJETO */
        #navigationPrimary ul a:hover,
        #navigationPrimary ul a:focus {
            border-color: transparent;
+           background:#ffcc40;
+           border-radius: 15px;
        }
    }
+   /*! ALTERA AS BORDAS DO SUBMENU QUANDO ELE ESTÁ ATIVO */
+   .pkp_nav_list ul {
+      position: absolute;
+      top: 100%;
+      left: -9999px;
+      z-index: 1000;
+      width: 15em;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px rgba(57, 57, 57, 0.55);
+  }
    /*! ALTERA A LINHA INFERIOR QUANDO O USUÁRIO É SELECIONADO */
    .pkp_navigation_user_wrapper ul a:hover,
    .pkp_navigation_user_wrapper ul a:focus {
@@ -4541,6 +4557,7 @@ a:focus {
    /*! ALTERA A COR DO NOME DE USUÁRIO NO CANTO SUPERIOR DIREITO DO HEADER */
    .pkp_navigation_user > li > a {
        color: rgba(240, 240, 240);
+       width: 125px;
    }
 }
 /*! ALTERA AS CORES DA LINHA INFERIOR DOS TÍTULOS DA BARRA LATERAL */
