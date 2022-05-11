@@ -4574,3 +4574,23 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
        opacity: 0.6;
    }
 }
+
+/* AJUSTA A COR DE FUNDO DA CAIXA DA LISTA DOS ARTIGOS PUBLICADOS */
+
+.obj_article_summary {
+   background: #e3e1e1;
+   padding-top: 0.5em;
+   padding-left: 1em;
+   padding-right: 0.5em;
+   border-radius: 5px;
+   transition: all 0.5s ease-out;
+ }
+ .obj_article_summary:hover, .obj_article_summary:focus {
+    background: #e3e1e1;
+    border-radius: 5px;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    border-radius: 5px;
+    ! transition: all 0.5s ease-in;
+ }
