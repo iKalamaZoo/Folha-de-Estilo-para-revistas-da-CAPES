@@ -4892,7 +4892,7 @@ a:focus {
 
 /* AJUSTA A COR DE FUNDO DA CAIXA DA LISTA DOS ARTIGOS PUBLICADOS */
 
-.obj_article_summary {
+/* .obj_article_summary {
    background: #e3e1e1;
    padding-top: 0.5em;
    padding-left: 1em;
@@ -4909,3 +4909,5 @@ a:focus {
     border-radius: 5px;
     ! transition: all 0.5s ease-in;
  }
+
+ */
