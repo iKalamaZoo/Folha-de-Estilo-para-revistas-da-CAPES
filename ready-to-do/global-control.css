@@ -3769,7 +3769,7 @@ body {
    .pkp_navigation_search_wrapper a:hover,
    .pkp_navigation_search_wrapper a:focus {
        color: #4b7d92;
-       border-color: #0a0;
+       border-color: #fe473c;
    }
 }
 .pkp_navigation_user_wrapper a {
@@ -4255,7 +4255,7 @@ a:focus {
 /*! ALTERA A COR DO TÍTULO DE BUSCA QUANDO O MOUSE REPOUSA NO OBJETO */
 .pkp_site_nav_menu a:hover,
 .pkp_site_nav_menu a:focus {
-   color: rgba(0, 0, 0, 0.84);
+   color: #4b7d92;
    text-decoration: none;
 }
 /*! ALTERA O BACKGROUND DO ÍCONE DA TASK COUNT QUANDO NÃO ESTÁ SELECIONADO */

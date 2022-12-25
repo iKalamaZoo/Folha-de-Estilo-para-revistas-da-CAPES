@@ -1273,7 +1273,7 @@ img {
 }
 .pkp_site_nav_menu a:hover,
 .pkp_site_nav_menu a:focus {
-   color: rgba(0, 0, 0, 0.84);
+   color: #4b7d92;
    text-decoration: none;
 }
 .pkp_site_nav_menu #siteNav {
@@ -2026,7 +2026,7 @@ body.navIsOpen .siteHeader__navToggleIcon > span:last-child {
        top: 0;
        right: 0;
        height: 40px;
-       min-width: 100px;
+       min-width: 80px;
        padding: 0;
        font-size: 14px;
        line-height: 20px;
