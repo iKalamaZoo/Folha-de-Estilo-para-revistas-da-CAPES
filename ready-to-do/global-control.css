@@ -4558,7 +4558,7 @@ a:focus {
    /*! ALTERA A COR DO NOME DE USUÁRIO NO CANTO SUPERIOR DIREITO DO HEADER */
    .pkp_navigation_user > li > a {
        color: rgba(240, 240, 240);
-       width: 125px;
+       width: 130px;
    }
 }
 /*! ALTERA AS CORES DA LINHA INFERIOR DOS TÍTULOS DA BARRA LATERAL */
